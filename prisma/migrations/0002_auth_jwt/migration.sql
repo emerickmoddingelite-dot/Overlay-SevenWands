@@ -1,0 +1,4 @@
+-- Authentication is handled by Auth.js JWT sessions.
+-- No database schema change is required.
+-- The Account/Session tables remain available for future migrations or
+-- integrations, while the application identity is keyed by User.discordId.
